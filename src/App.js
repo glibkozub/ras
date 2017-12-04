@@ -14,14 +14,14 @@ class App extends Component {
           <header className={classes.Header}>
             <nav className={classes.Navigation}>
               <ul>
-                <li><Link to='/restaurants' title='See restaurants in the area'>Restaurants</Link></li>
+                <li><Link to='/' title='See restaurants in the area'>Restaurants</Link></li>
                 <li><Link to='/weather' title='See weather this week'>Weather</Link></li>
                 <li><Link to='/coupons' title='Send me a coupon for the hotel spa'>Coupons</Link></li>
               </ul>
             </nav>
           </header>
           <div className={classes.Container}>
-            <Route path="/restaurants" component={Restaurants} />
+            <Route path="/" exact component={Restaurants} />
             <Route path="/weather" component={Weather} />
             <Route path="/coupons" component={Coupons} />
           </div>
