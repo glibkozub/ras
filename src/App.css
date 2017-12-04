@@ -1,0 +1,41 @@
+.App {
+  min-height: 100%;
+}
+
+.Header {
+  padding: 20px 0;
+  background-color: lightcoral;
+}
+
+.Header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Header a {
+  text-decoration: none;
+}
+
+.Header a:hover {
+  text-decoration: underline;
+}
+
+.Navigation ul {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.Navigation li {
+  display: inline-block;
+}
+
+.Navigation li + li {
+  margin-left: 30px;
+}
+
+.Container {
+  max-width: 980px;
+  margin: 0 auto;
+}
